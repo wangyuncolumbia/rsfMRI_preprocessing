@@ -27,7 +27,7 @@ def calculate_FD_Power(in_file,out_file):
     
     np.savetxt(out_file, fd)
 
-    return out_file
+    return fd
 
 
 def main(raw_args=None):
